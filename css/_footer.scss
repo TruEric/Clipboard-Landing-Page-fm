@@ -1,0 +1,51 @@
+@media screen and (min-width: 375px){
+    footer{
+        align-items: center;
+        background-color: hsl(201, 11%, 88%);
+        display: flex;
+        flex-direction: column;
+        .footer-info{
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            img{
+                margin: 2.5rem 0rem;
+                width: 35%;
+            }
+            a{
+                color: $dark-grayish-blue;
+                font-weight: 400;
+                margin-bottom: 1.5rem;
+            }
+            .icons{
+                align-items: center;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-bottom: 2rem;
+                width: 100%;
+                span{
+                    align-items: center;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    width: 60px;
+                    img{
+                        margin: 0rem;
+                        padding: 0rem;
+                    }
+                }
+            }
+        }
+        .attribution{
+            color: $dark-grayish-blue;
+            font-size: 12px;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            width: 80%;
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}

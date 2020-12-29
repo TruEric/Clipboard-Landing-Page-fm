@@ -1,1 +1,317 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  font-family: 'Bai Jamjuree', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+@media screen and (min-width: 375px) {
+  header {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-image: url(/home/erict/Documentos/FrontendMentor/Clipboard-Landing-Page-fm/assets/clipboard-landing-page-master/images);
+    background-position: center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0rem;
+    width: 100%;
+    text-align: center;
+  }
+  header .card-wrapper img {
+    height: 30%;
+    width: 30%;
+    margin: 5.5rem 4rem;
+  }
+  header .card-wrapper h2 {
+    color: #4c545d;
+    font-size: 28px;
+    font-weight: 600;
+    margin: auto;
+    width: 80%;
+  }
+  header .card-wrapper p {
+    color: #9fabb2;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin: 1rem auto 2rem auto;
+    width: 80%;
+    word-spacing: 2px;
+  }
+  header .button-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80%;
+  }
+  header .button-box .green-button {
+    background-color: #26BBA4;
+    border: none;
+    border-radius: 1.5rem;
+    -webkit-box-shadow: 1px 2px 1px #1f9e8b, 4px 5px 12px -4px #1f9e8b;
+            box-shadow: 1px 2px 1px #1f9e8b, 4px 5px 12px -4px #1f9e8b;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: .5rem 0rem;
+    padding: 0.75rem;
+  }
+  header .button-box .blue-button {
+    background-color: #6173ff;
+    border: none;
+    border-radius: 1.5rem;
+    -webkit-box-shadow: 1px 2px 1px #5161d6, 4px 5px 12px -4px #5161d6;
+            box-shadow: 1px 2px 1px #5161d6, 4px 5px 12px -4px #5161d6;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: .75rem 0rem;
+    padding: 0.75rem;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  main {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0rem;
+    width: 100%;
+    text-align: center;
+  }
+  main .snippets {
+    margin-top: 6rem;
+  }
+  main .snippets h3 {
+    color: #4c545d;
+    font-size: 24px;
+    font-weight: 600;
+    margin: auto;
+    width: 80%;
+  }
+  main .snippets p {
+    color: #9fabb2;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin: 1rem auto 2rem auto;
+    width: 80%;
+    word-spacing: 2px;
+  }
+  main .center-cards img {
+    margin: 1.5rem 0rem;
+    width: 80%;
+    margin-bottom: 6rem;
+  }
+  main .center-cards .card-style img {
+    margin: 2rem;
+    width: 10%;
+  }
+  main .center-cards .card-style h4 {
+    color: #4c545d;
+    font-size: 24px;
+    font-weight: 600;
+    margin: auto;
+    width: 80%;
+  }
+  main .center-cards .card-style p {
+    color: #9fabb2;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin: 1rem auto 2rem auto;
+    width: 80%;
+    word-spacing: 2px;
+  }
+  main .brand-img {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 5.5rem 0rem;
+  }
+  main .brand-img img {
+    margin: 2rem 0rem;
+    width: 70%;
+  }
+  main .card-footer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 8rem;
+  }
+  main .card-footer h4 {
+    color: #4c545d;
+    font-size: 24px;
+    font-weight: 600;
+    margin: auto;
+    width: 80%;
+  }
+  main .card-footer p {
+    color: #9fabb2;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin: 1rem auto 2rem auto;
+    width: 80%;
+    word-spacing: 2px;
+  }
+  main .card-footer .button-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80%;
+  }
+  main .card-footer .button-box .green-button {
+    background-color: #26BBA4;
+    border: none;
+    border-radius: 1.5rem;
+    -webkit-box-shadow: 1px 2px 1px #1f9e8b, 4px 5px 12px -4px #1f9e8b;
+            box-shadow: 1px 2px 1px #1f9e8b, 4px 5px 12px -4px #1f9e8b;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: .5rem 0rem;
+    padding: 0.75rem;
+  }
+  main .card-footer .button-box .blue-button {
+    background-color: #6173ff;
+    border: none;
+    border-radius: 1.5rem;
+    -webkit-box-shadow: 1px 2px 1px #5161d6, 4px 5px 12px -4px #5161d6;
+            box-shadow: 1px 2px 1px #5161d6, 4px 5px 12px -4px #5161d6;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: .75rem 0rem;
+    padding: 0.75rem;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  footer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #dde1e4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .footer-info {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .footer-info img {
+    margin: 2.5rem 0rem;
+    width: 35%;
+  }
+  footer .footer-info a {
+    color: #4c545d;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+  }
+  footer .footer-info .icons {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+  footer .footer-info .icons span {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 60px;
+  }
+  footer .footer-info .icons span img {
+    margin: 0rem;
+    padding: 0rem;
+  }
+  footer .attribution {
+    color: #4c545d;
+    font-size: 12px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    width: 80%;
+  }
+  footer .attribution a {
+    text-decoration: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
